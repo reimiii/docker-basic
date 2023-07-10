@@ -1,0 +1,1 @@
+docker container exec -i -t redisbruh /bin/bash
