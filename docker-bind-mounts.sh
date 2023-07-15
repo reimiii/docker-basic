@@ -1,0 +1,1 @@
+docker container create --name datamongo --publish 27018:27017 --env MONGO_INITDB_ROOT_USERNAME=mee --mount "type=bind,source=/home/darkn/Dev/Database/mongo,destination=/data/db" --env MONGO_INITDB_ROOT_PASSWORD=mee mongo:latest
